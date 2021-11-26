@@ -1,24 +1,21 @@
 {
-  "name": "coursera_full_stack",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "this is a test directory to learn git and node",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite" : "lite-server"
+    "lite": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://abhijitgayen@bitbucket.org/abhijitgayen/full_stack_web_cousera.git"
-  },
-  "author": "Abhijit Gayen",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://bitbucket.org/abhijitgayen/full_stack_web_cousera/issues"
-  },
-  "homepage": "https://bitbucket.org/abhijitgayen/full_stack_web_cousera#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
